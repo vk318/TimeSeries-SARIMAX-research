@@ -1,5 +1,9 @@
 ## Time Series Research - Seasonal ARIMA process with Exogenous variables
 
+[Link to Notebook](https://vk318.github.io/TimeSeries-SARIMAX-research/SARIMAX2.html)
+
+[Link to Summary Presentation](https://vk318.github.io/TimeSeries-SARIMAX-research/SARIMAX.pdf)
+
 ### Research and demo of ARIMA model with seasonality and exogenous variables included
 
-SARIMA model fit to Walmart sales tracking data, month of the year and holidays were added as exogenous variables in hopes that the time series model could create more accurate forecasts. The idea is that sales of certain items are obviously seasonal, but knowing the specific month that the sale of an item occurred on as well as if the day was a holiday could increase forecast accuracy even further.
+Seasonal ARIMA model fit to Walmart sales tracking data, month and defined holidays were added as exogenous(external) variables to test if revised model can achieve better test accuracy. Show seasonality of item sales, testing if sale_month and is_holiday increases forecast accuracy.
